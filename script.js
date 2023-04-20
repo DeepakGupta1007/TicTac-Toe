@@ -55,6 +55,9 @@ Array.from(boxes).forEach(element =>{
     }
     else{
         document.getElementById("reset").click();
+
+
+        
     }   
     })
 })

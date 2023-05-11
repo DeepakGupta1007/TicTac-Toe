@@ -54,6 +54,7 @@ Array.from(boxes).forEach(element =>{
     })
 })
 
+
 // Add onclick listener to reset button
 reset.addEventListener('click', ()=>{
     let boxtexts = document.querySelectorAll('.boxtext');
@@ -66,4 +67,3 @@ reset.addEventListener('click', ()=>{
     document.getElementsByClassName("info")[0].innerText  = "Turn for " + turn;
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "0px"
 })
-
